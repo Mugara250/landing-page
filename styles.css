@@ -219,3 +219,18 @@ nav > a {
     font-size: large;
     border-radius: 10px;
 }
+
+/* FOOTER */
+
+footer {
+    background-color: #1F2937;
+    width: 100%;
+    height: fit-content;
+}
+
+.footer-text {
+    color: #E5E7EB;
+    text-align: center;
+    font-size: 1.125rem;
+    padding: 3% 0 3% 0;
+}
