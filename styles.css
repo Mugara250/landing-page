@@ -175,6 +175,7 @@
 }
 
 .hero-button:hover {
+  cursor: pointer;
   background-color: var(--white-imp);
   color: var(--blue-sky);
   transition: 150ms ease-in-out;
@@ -294,6 +295,15 @@
   font-weight: bold;
   font-size: large;
   border-radius: 10px;
+}
+
+.call_to_action_button:hover {
+  cursor: pointer;
+  border: 2px solid var(--blue-sky);
+  background-color: var(--white-imp);
+  color: var(--blue-sky);
+  transition: 150ms ease-in-out;
+  transition-property: border, background-color, color;
 }
 
 /* FOOTER */
